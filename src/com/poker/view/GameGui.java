@@ -1,7 +1,14 @@
-/**
- * Class is GUI of the Poker Game.
- * Created on 18-July-2008
- * @author SIJAR
+/*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface GameGui is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
  */
 
 package com.poker.view;
@@ -156,8 +163,7 @@ public class GameGui extends javax.swing.JFrame {
 		});
 
 		//Set ActionListener for each Button
-		/** @author SIJAR */
-		incrBet.setActionCommand("Bet++ button pressed");
+        incrBet.setActionCommand("Bet++ button pressed");
 		incrBet.addActionListener(new BetIncrButtonHandler());
 		DecrBet.setActionCommand("Bet-- button pressed");
 		DecrBet.addActionListener(new BetDecrButtonHandler());

@@ -1,7 +1,14 @@
-/**
- * Class is ADT called Card
- * Date:- 17-July-2008
- * @author SIJAR
+/*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface Card is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
  */
 
 package com.poker.Model;
@@ -50,18 +57,10 @@ public class Card implements PlayingCard{
 	public void setSuite(Integer Suite){
 		this.Suite = Suite;
 	}
-	/**
-	 * Getters
-	 * @return String
-	 */
 	/*
 	public String getColour(){
 		return Colour;
 	}*/
-	/**
-	 * Setters
-	 * @param Colour
-	 */
 	/*
 	public void setColour(String Colour){
 		this.Colour = Colour;

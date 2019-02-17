@@ -1,7 +1,14 @@
-/**
- * Class is ADT called GameCredit
- * Date:- 17-July-2008
- * @author SIJAR
+/*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface GameCredit is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
  */
 
 package com.poker.Model;

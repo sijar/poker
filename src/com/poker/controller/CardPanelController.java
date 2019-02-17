@@ -1,7 +1,14 @@
-/**
- * Class is Controller of the CardPanel.
- * Created on 26-July-2008
- * @author SIJAR
+/*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface CardPanelController is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
  */
 
 package com.poker.controller;
@@ -22,7 +29,7 @@ public final class CardPanelController {
 	 * Method will show Back of the cards
 	 * @author SIJAR
 	 */
-	public final static void showCardCover() {
+	public static void showCardCover() {
 		ImageIcon coverImage = new ImageIcon(CardImageGenerator.CARD_IMAGE_DIRECTORY + "cover.png");
 		for(JLabel GuiCardLabel : GameGui.getCardLabel()){
 			GuiCardLabel.setIcon(coverImage);			
